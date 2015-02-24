@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.aleix.practica03.MainActivity2Activity">
+
+    <TextView android:text="@string/resultats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/registre_id"
+        android:textSize="@dimen/title_text_size"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/nom_result_id"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/registre_id"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/cognom_result_id"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/nom_result_id"
+        />
+
+    <TextView
+        style="@style/Titols"
+        android:text="@string/sexe_title" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/sexe_id"
+        android:layout_below="@+id/cognom_result_id"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sexe_result_id"
+        android:text=""
+        android:layout_below="@+id/sexe_id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        style="@style/Titols"
+        android:text="@string/estat_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/estat_id"
+        android:layout_below="@+id/sexe_result_id"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/estat_result_id"
+        android:layout_below="@+id/estat_id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        style="@style/Titols"
+        android:text="@string/estudis_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/estudis_id"
+        android:layout_below="@+id/estat_result_id"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/estudis_result_id"
+        android:layout_below="@+id/estudis_id"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        style="@style/Titols"
+        android:text="@string/pes_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/pes_id"
+        android:layout_below="@+id/estudis_result_id"
+        />
+
+    <TextView
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pes_result_id"
+        android:layout_below="@+id/pes_id"
+        android:layout_marginTop="5dp"/>
+    />
+
+    <TextView
+        style="@style/Titols"
+        android:text="@string/naixement_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/naixement_id"
+        android:layout_below="@+id/pes_result_id"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/data_result_id"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/naixement_id"
+        />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Aleix/AndroidStudioProjects/Practica03/app/src/main/res/layout/activity_main_activity2.xml -->
